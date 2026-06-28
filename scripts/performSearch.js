@@ -1,7 +1,7 @@
- import getMessage from "./getMessage";
-import setLoadingState from "./setLoadingState";
-import setMessage from "./setMessage";
-import setSearchResult from "./setSearchResult";
+import getMessage from "./getMessage.js";
+import setLoadingState from "./setLoadingState.js";
+import setMessage from "./setMessage.js";
+import setSearchResult from "./setSearchResult.js";
  const  USER_API = "https://api.github.com/search/users?q=";
 export const performSearch = (searchTerm , isUserSelected)=>{
 
