@@ -1,6 +1,8 @@
- export const buttonElement = document.querySelector(".button");
- export const searchInput = document.querySelector(".input");
- export const usersInputElement = document.querySelector('input[value="users"]'); 
- export const cardsElement = document.querySelector(".cards");
- export const alert = document.querySelector(".message");
- export const loder = document.querySelector(".loader");
+  const buttonElement = document.querySelector(".button");
+  const searchInput = document.querySelector(".input");
+  const usersInputElement = document.querySelector('input[value="users"]'); 
+  const cardsElement = document.querySelector(".cards");
+  const alert = document.querySelector(".message");
+  const loder = document.querySelector(".loader");
+
+  export default elements;
